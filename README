@@ -16,6 +16,23 @@ optional arguments:
   -r          test isSecretAdditive for all numbers less than userNumber
   -nl         remove upper limit on userNumber
 
-Made By Ethan Weber, Enjoy!
 
+Example usage in terminal:
+
+(userNumber = 37)
+
+#To test core functionality 
+python isSecretAdditive.py 37
+
+#test if userNumber prime?
+python isSecretAdditive.py 37 -ip
+
+#show all primes less than userNumber
+python isSecretAdditive.py 37 -ap
+
+#test isSecretAdditive for all numbers less than userNumber
+python isSecretAdditive.py 37 -r
+
+#remove upper limit on userNumber
+python isSecretAdditive.py 150344 -nl
 
