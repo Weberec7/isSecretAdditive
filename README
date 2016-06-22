@@ -1,0 +1,21 @@
+usage: isSecretAdditive.py [-h] [-ip] [-ap] [-r] [-nl] userNumber
+
+Accepts a single integer parameter and returns an integer. Determines if the
+number is additive [secret(x+y) = secret(x) + secret(y)], for all combinations
+x and y, where x and y are all prime numbers less than the number passed via
+the command-line argument. The function secret() accepts an integer and
+returns an integer.
+
+positional arguments:
+  userNumber  #choose a positive integer
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -ip         test if userNumber prime?
+  -ap         show all primes less than userNumber
+  -r          test isSecretAdditive for all numbers less than userNumber
+  -nl         remove upper limit on userNumber
+
+Made By Ethan Weber, Enjoy!
+
+
